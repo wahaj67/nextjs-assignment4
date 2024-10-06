@@ -9,12 +9,14 @@ const page = () => {
         rollNo={136182}
         batch={2023}
         distanceLearning={"No"}
+        city="Karachi"
       />
       <CardComponent
         name="Zayan"
         rollNo={243578}
         batch={2023}
         distanceLearning="No"
+        city="Karachi"
       />
     </div>
   );

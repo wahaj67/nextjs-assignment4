@@ -12,6 +12,8 @@ interface ProsType {
   rollNo: number;
   batch: number;
   distanceLearning: string;
+  city:string;
+  
 }
 
 const CardComponent = (children: ProsType) => {
