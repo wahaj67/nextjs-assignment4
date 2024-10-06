@@ -13,7 +13,7 @@ interface ProsType {
   batch: number;
   distanceLearning: string;
   city:string;
-  
+
 }
 
 const CardComponent = (children: ProsType) => {
@@ -30,13 +30,16 @@ const CardComponent = (children: ProsType) => {
             Name: {children.name}
           </h1>
           <h1 className="text-2xl text-green-300 hover:text-black font-normal transition-all duration-1000 ease-in-out">
-            RollNo:{children.rollNo}
+            RollNo: {children.rollNo}
           </h1>
           <h1 className="text-2xl text-green-300 hover:text-black font-normal transition-all duration-1000 ease-in-out">
-            Batch:{children.batch}
+            Batch: {children.batch}
           </h1>
           <h1 className="text-2xl text-green-300 hover:text-black font-normal transition-all duration-1000 ease-in-out">
-            Distance Learning:{children.distanceLearning}
+            Distance Learning: {children.distanceLearning}
+          </h1>
+          <h1 className="text-2xl text-green-300 hover:text-black font-normal transition-all duration-1000 ease-in-out">
+            City: {children.city}
           </h1>
         </CardContent>
       </Card>
